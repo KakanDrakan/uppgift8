@@ -1,0 +1,105 @@
+html,
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    height: 100%;
+    background-color: #D7CAB7;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background-color: #241a0c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer {
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+    height: 50px;
+    width: 100%;
+    position: bottom;
+}
+
+#nav {
+    background-color: #241a0c;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 15px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+.bg-primary {
+    background-color: #241a0c !important;
+}
+
+.card-text {
+    line-height: 1;
+}
+
+.card {
+    background-color: #241a0c;
+    border: 2px solid black;
+    margin-bottom: -20px;
+    color: white;
+}
+
+.vertical-divider {
+    border-left: 3px solid #000;
+}
+
+@media (max-width: 767.98px) {
+    .vertical-divider {
+        border-left: none;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+    font-weight: bold;
+}
+
+h5 {
+    overflow-wrap: normal;
+    word-break: normal;
+    white-space: normal;
+
+}
+
+.container {
+    max-width: 85%;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-tabs .nav-link {
+    border-bottom: none !important;
+}
+
+.nav-tabs .nav-link.active {
+    border: none !important;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.445);
+}
